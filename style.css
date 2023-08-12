@@ -1,0 +1,188 @@
+header {
+  display: flex;
+  height: 30px;
+  width: 100%;
+  align-items: center;
+  margin-top: 0;
+  justify-content: center;
+}
+
+
+.fejlec {
+  display:flex;
+  background-color: black;
+  color: white;
+  height: 50px;
+  width: 1000px;
+  justify-content: space-evenly;
+  margin: auto;
+  
+  position: fixed;
+  
+}
+
+header p {
+  color: lime;
+}
+
+.tomb1 {
+  display: flex;
+  width: 1000px;
+  justify-content: center;
+  margin: auto;
+  
+  
+  
+}
+
+.leftColumn {
+  width: 400px;
+  
+}
+
+.rightColumn {
+  
+  padding: 30px ;
+  width: 600px;
+}
+
+img {
+ width: 400px;
+ height: 100%;
+}
+
+
+
+h1 {
+  position: relative;
+  top: -250px;
+  left: 125px;
+  font-family: 'Montserrat', sans-serif;
+  color: #222;
+  font-size: 40px;
+  line-height: 150%;
+}
+
+span {
+  font-size: 70px;
+}
+
+.forma {
+  width: 35%;
+  margin: auto;
+}
+
+#rightCsuszi {
+  
+}
+
+.idezet1 {
+ background-color: purple;
+  width: 450px;
+  margin: auto;
+  height: 400px;
+  position: relative;
+  margin-top: 30px;
+}
+
+
+
+.idezet1 p {
+  font-family: 'Poppins', sans-serif;
+  color: lime;
+  position: absolute;
+  font-size: 55px;
+  left: 80px;
+  padding: 10px;
+  top: -50px;
+   
+  
+}
+
+.idezet1::before{
+  content: '”';
+  position: absolute;
+  font-size: 150px;
+  color: lime;
+  top: -90px;
+  transform: rotate(180deg);
+}
+
+h4 {
+  font-family: 'Merriweather', serif;
+  font-size: 15px;
+  font-style: italic;
+  margin-top: 0;
+  font-weight: 300;
+}
+
+h2{
+  text-transform: lowercase;
+  font-family: 'Josefin Sans', sans-serif;
+  color: lime;
+  margin-bottom: 50px;
+  margin-top: 50px;
+}
+
+h3 {
+  font-family: 'Josefin Sans', sans-serif;
+  color: lime;
+  margin-bottom: 50px;
+  line-height: 150%;
+  padding-right: 50px;
+  
+}
+
+
+p, li {
+  font-family: 'Josefin Sans', sans-serif;
+  color: lime;
+  font-size: 15px;
+  line-height: 150%;
+}
+
+.idezet2 {
+  position: relative;
+  top: 10px;
+  background-color: lime;
+  width: 40%;
+  margin: auto;
+  height: 230px;
+  position: relative;
+}
+
+.idezet2 p {
+  font-family: 'Abril Fatface', cursive;
+  color: lime;
+  position: absolute;
+  font-size: 45px;
+  left: 50px;
+}
+
+.idezet2::before{
+  content: '”';
+  position: absolute;
+  font-size: 150px;
+  color: lime;
+  bottom: 150px;
+  transform: rotate(180deg);
+}
+
+li {
+  list-style: square;
+}
+
+.divider {
+  border-top: 3px solid black;
+  width: 700px;
+  margin: auto;
+}
+
+#idezetCsuszi {
+  height: 700px;
+}
+
+body {
+  background-color: navy;
+  color: lime;
+}
